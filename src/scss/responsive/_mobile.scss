@@ -129,7 +129,7 @@ h2 {
   font-weight: bold;
   transition: all 0.3s ease;
 }
-.button_go:hover {
+.button_go:active {
   color: #2c52a4;
   background-color: #f26002;
 }
@@ -176,7 +176,7 @@ h2 {
   text-decoration: none;
   transition: all 0.3s ease;
 }
-.more:hover {
+.more:active {
   color: #f26002;
   background-color:  #2c52a4 ;
 }
@@ -213,7 +213,7 @@ footer {
   text-decoration: none;
   transition: all 0.3s ease;
 }
-.link:hover {
+.link:active {
   background-color: #ff9b5c;
   color: #8ccbea;
 }
