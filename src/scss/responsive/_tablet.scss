@@ -1,0 +1,77 @@
+@media (width > 768px) {
+  $fontsize_title: 6.25;
+  $fontsize_text: 1.5rem;
+  /*header*/  
+    .title{
+      font-size: 5rem;
+      margin-bottom: 172px;
+    }
+    .p_cover {
+      font-size: 1.5rem;
+      max-width: 20ch;
+    }
+
+    .looking_t {
+      margin-left: 35.7px;
+  
+    }
+    h2 {
+      font-size: $fontsize_title;
+    }
+    /*insomnia*/
+    main {
+      font-size: $fontsize_text;
+    }
+    
+
+    /*3 reasons*/
+    .reasons {
+      font-size: $fontsize_text;
+      padding-bottom: 50px;
+    }
+    .purchase {
+      margin-top: 36px;
+    }
+    
+    h3 {
+      font-size: $fontsize_title;
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+    .distribution {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px 50px;  
+    }
+    .more {
+      grid-column: span 3;
+      justify-self: center;
+   }
+   /*footer*/
+    .organize {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 80px;
+    }
+    .copy, .articles, .social {
+      flex: 1;
+      margin: 0 10px;
+     
+    }
+    .copy {
+      order: 1;
+      text-align: left;
+      margin-left: 39px;
+    }
+    .articles{
+      order: 2;
+      text-align: left;
+    }
+    .social {
+      order: 3;
+      text-align: left;
+      margin-top: 0;
+      
+    }
+   }

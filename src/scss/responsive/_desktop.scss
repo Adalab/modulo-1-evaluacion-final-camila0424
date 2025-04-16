@@ -1,0 +1,13 @@
+@media (width > 1280px) {
+    $fontsize_title: 1.625rem;
+    $fontsize_text: 1.25rem;
+  /*header*/  
+    .title{
+      font-size: 5rem;
+      margin-bottom: 172px;
+    }
+    .p_cover {
+      font-size: 1.5rem;
+      max-width: 20ch;
+    }
+}
